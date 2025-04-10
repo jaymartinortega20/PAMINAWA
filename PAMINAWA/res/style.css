@@ -1,0 +1,194 @@
+body {
+    font-family: "Merriweather", serif; 
+    font-weight: 700;
+    font-style: normal;
+    background-color: #191414;
+    color: #ffffff;
+    background-image: url('image.jpg');  
+    background-size: cover;  
+    background-repeat: no-repeat; 
+}
+
+a {
+    color: #1DB954;
+    padding: 1em;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1ed760;
+}
+
+.navbar {
+    padding: 1em;
+    background-color: #121212;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.navbar a {
+    color: #1DB954; 
+    font-weight: 600;
+}
+
+.navbar a:hover {
+    background-color: #1ed760;
+    color: #000;
+}
+
+#loginform {
+    display: block;
+    padding: 1em;
+    width: 700px;
+    margin: 20px auto;
+    text-align: center;   
+    background-color: #282828;
+    border-radius: 5px; 
+    border: 1px solid #3d3d3d;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+#loginform input {
+    width: 100%;
+    margin: .1em;
+    padding: .8em;
+    background-color: #191414;
+    border: 1px solid #3d3d3d;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+#loginform input[type='checkbox'] {
+    width: 11%;
+    margin: 5em 0;
+}
+
+
+.form-check-label {
+    margin: 3em 0;
+    width: 120%;
+}
+
+#loginform input[type='submit'] {
+    width: 100%;
+    background-color: #1DB954;
+    border: none;
+    border-radius: 2px;
+    color: #000;
+    padding: 1em;
+    font-size: 1em;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 1em 0;
+}
+
+#loginform input[type='submit']:hover {
+    background-color: #1ed760;
+    color: #000;
+}
+
+#loginform input[type='submit']:active {
+    background-color: #169c46;
+    color: #000;
+}
+
+#loginform label {
+    margin-top: 1.2em;
+    font-size: 1.1em;
+    color: #ffffff;
+}
+
+#loginform select {
+    width: 93%;
+    padding: .6em;
+    margin: .8em 0;
+    background-color: #191414;
+    border: 1px solid #3d3d3d;
+    color: #ffffff;
+    border-radius: 4px;
+}
+.promo-container {
+    margin-top: 50px;
+}
+
+.promo {
+    background: #1DB954;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px;
+    transition: transform 0.3s;
+}
+
+.promo:hover {
+    transform: scale(1.05);
+}
+
+.promo h4 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.promo .price {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+.promo .buy a {
+    background-color: #ffffff;
+    color: #1DB954;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.promo .buy a:hover {
+    background-color: #1DB954;
+    color: #ffffff;
+}
+
+@media (max-width: 767px) {
+    .promo {
+        margin-bottom: 2rem;
+        border-radius: .25rem;
+    }
+
+    .promo:last-child {
+        margin-bottom: 0;
+    }
+}
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+h1 {
+    color: #1db954;
+}
+
+.lead {
+    color: #b3b3b3;
+}
+
+.btn-primary {
+    background-color: #1db954;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #1aa34a;
+}
+
+.container {
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.content-box {
+    background-color: #282828;
+    border-radius: 8px; 
+    padding: 20px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+}
